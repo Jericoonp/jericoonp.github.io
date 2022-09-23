@@ -1,0 +1,50 @@
+about me:
+
+
+skills:
+arduino,java,python,mavchine learning, c#,c++,c.
+
+achievements/projects:
+1. mazi
+2. object detection machine learning
+3. robotics
+4. arduino research
+
+pages per slide - 4
+color pallette - black n white
+with navigation at the side
+no top navigation
+soc med icons on top
+icons on programming
+2 projects per slide
+
+static black and white wallpaper
+contents move in and out
+single page scroll
+no side and horizontal scrollbar
+
+
+gradient
+white texture
+
+
+
+contents in website:
+
+about me:
+	Student, Developer, AI enthusiast
+
+skills:
+graph
+	Python - 60%
+	C# - 70%
+	C++ - 50%
+	Java - 70%
+	Arduino - 56%
+	Machine Learning - 40%
+
+
+achievements/projects:
+	1. mazi - Mazi is a mobile dating application designed by our team during 2nd year college.
+	2. ODS - is an object detection system that came from the idea of the hit kdrama start-up and turned it into real life.
+	4. arduino research - rfid lock system with the use of arduino uno and a servo that turns 90 degrees to move the lock.
