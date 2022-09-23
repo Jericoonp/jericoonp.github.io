@@ -72,3 +72,17 @@ function customScrollTo(to, duration, easingFunction) {
       }
     }
 }
+
+$(document).keydown(function (e) {
+
+  switch(e.which) 
+  {
+       case 38:
+           $('#goto_prev').trigger('click');
+           break;
+       case 40:
+           $('#goto_next').trigger('click');
+           break;
+   }
+
+});
