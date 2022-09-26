@@ -158,3 +158,73 @@ nav.sticky .logo a{
   width: 400px;
   height: 400px;
  }
+
+.scroll {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  background:url("../design/icons8-facebook-circled-30.png");
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+}
+
+.facebook:hover {
+  cursor: pointer;
+  background: url("../design/icons8-facebook-circled.gif");
+  background-size: 50px;
+}
+
+.twitter {
+  background:url("../design/icons8-twitter-circled-50.png");
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+}
+
+.twitter:hover {
+  cursor: pointer;
+  background: url("../design/icons8-twitter-circled.gif");
+  background-size: 50px;
+}
+
+.instagram {
+  background:url("../design/icons8-instagram-50.png");
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+}
+
+.instagram:hover {
+  cursor: pointer;
+  background: url("../design/icons8-instagram.gif");
+  background-size: 50px;
+}
+
+.links {
+  display: flex;
+}
+
+.text-card2 img{
+  height: 70px;
+  width: 70px;
+}
+
+.text-card2 {
+  margin: 0 10%;
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+}

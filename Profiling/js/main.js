@@ -15,7 +15,7 @@ window.addEventListener("wheel", async e => {
     // If the value hasn't changed during the delay, then scroll to "start + dy"
     if (_dy === dy) {
         let start = window.scrollY || window.pageYOffset;
-        customScrollTo(start + dy, 600, easeInOutQuint);
+        customScrollTo(start + dy, 800, easeInOutQuint);
         dy = 0;
     }
 }, { passive: false });
@@ -41,7 +41,7 @@ function customScrollTo(to, duration, easingFunction) {
         let y = start + dy;
 
         // Map "y" into a range from 0 to 1
-        let _y = (y - start) / (to - start);
+        let _y = (y - start) / (to - start - 55);
         // Fit "_y" into a curve given by "easingFunction"
         _y = easingFunction(_y);
         // Expand "_y" into the original range
@@ -50,6 +50,7 @@ function customScrollTo(to, duration, easingFunction) {
         window.scrollTo(0, y);
         window.requestAnimationFrame(move);
     })();
+  }
 
 
     window.addEventListener('scroll', reveal);
@@ -71,18 +72,4 @@ function customScrollTo(to, duration, easingFunction) {
         }
       }
     }
-}
 
-$(document).keydown(function (e) {
-
-  switch(e.which) 
-  {
-       case 38:
-           $('#goto_prev').trigger('click');
-           break;
-       case 40:
-           $('#goto_next').trigger('click');
-           break;
-   }
-
-});
